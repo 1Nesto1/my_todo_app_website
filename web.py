@@ -24,3 +24,5 @@ for index, todo in enumerate(todos):
 
 st.text_input(label="Enter a todo", placeholder="add new todo...",
               on_change=add_todo, key="new_todo")
+
+# to stop streamlit app in pycharm press ctrl + c, to run again write in command line streamlit run (web.py)
